@@ -67,11 +67,11 @@
 
 1. What is a typo?
 
-**
+**mistakes can be created by such as handwriting. finding Trukey instead of Turkey**
 
 2. What is a good method of automatically detect typos?
 
-
+**there is a wonderful package for that calls fuzzywuzzy**
 
 ### Practical case
 
