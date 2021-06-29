@@ -14,4 +14,6 @@ li a:hover{
     background-color:#000000;
 }
 
-p.dotted {border-style: dotted;}
+p .dotted {border-style: dotted;}
+
+.hidden {display: none;}
