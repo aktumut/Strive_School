@@ -1,19 +1,6 @@
-body { width: 100%; text-align: center; }
-#centerContainer { width: 900px; text-align: left; margin: 0px auto; }
+.card {
+    background-color: darkgrey;
+    font-size: 50px;
+    
 
-h1 {
-    text-align:center;
 }
-
-li a{
-    color:#A60500;
-}
-
-li a:hover{
-    color:#640200;
-    background-color:#000000;
-}
-
-p .dotted {border-style: dotted;}
-
-.hidden {display: none;}
