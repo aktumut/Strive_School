@@ -1,6 +1,55 @@
 .card {
     background-color: darkgrey;
-    font-size: 50px;
-    
+    font-size: 20px;
+}
+h5.ibrahim-title {
+    background-color:black;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+p.ibrahim-text {
+    background-color: wheat;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.ibrahim-list {
+    background-color: rgba(85, 185,220, 10);
+    color: rosybrown;
+    font-family: fantasy;
+}
 
+h5.cafer-title {
+    background-color:blue;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+p.cafer-text {
+    background-color:slategray;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.cafer-list {
+    background-color: rgba(85, 185,220, 10);
+    color: teal;
+    font-family: fantasy;
+}
+
+
+h5.jo-title {
+    background-color:green;
+    color:black;
+    font-family: 'Times New Roman', Times, serif ;
+}
+p.jo-text {
+    background-color:coral;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ul.jo-list {
+    background-color: rgba(85, 185,220, 10);
+    color:skyblue;
+    font-family: fantasy;
+}
+body {
+    background-color: rgb(255, 180,150);
 }
