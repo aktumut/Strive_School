@@ -1,3 +1,5 @@
+
+
 from flask import Flask,render_template,request,redirect,url_for,send_from_directory
 from constants.items import *
 import os
@@ -9,7 +11,8 @@ app.config["UPLOAD_FOLDER"]="files"
 
 @app.route("/")
 def index():
-    return render_template('/views/home.html',APP_NAME=APP_NAME,MENU_ITEMS=MENU_ITEMS,SOCIAL_LINKS=SOCIAL_LINKS,MY_PROJECTS=MY_PROJECTS)
+    projects = read_db()
+    return render_template('/views/home.html',APP_NAME=APP_NAME,MENU_ITEMS=MENU_ITEMS,SOCIAL_LINKS=SOCIAL_LINKS,MY_PROJECTS=projects)
  
 @app.route("/dashboard")
 def dashboard():
@@ -56,7 +59,8 @@ def new_project():
         cover = request.form.get("cover")
         githubLink = request.form.get("githubLink")
         liveLink = request.form.get("liveLink")
-        write_project(title,description,cover,githubLink,liveLink)
+        youtubelink = request.form.get("youtubelink")
+        write_project(title,description,cover,githubLink,liveLink,youtubelink)
         return redirect(url_for("projects"))
     else:
         # display form for adding project

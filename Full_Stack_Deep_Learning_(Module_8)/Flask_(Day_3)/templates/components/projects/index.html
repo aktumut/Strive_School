@@ -3,14 +3,19 @@
 
 <div id="projects" class="projects-container">
     <h1 class="mt-4 mb-4">Projects</h1>
-<div class="row row-cols-1 row-cols-md-4 g-4">
+    <p>Watch the below video for all of my projects in 5 minutes!</p>
+    
+    <iframe width="840" height="472" src="https://www.youtube.com/embed/KCZXDI_qRDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3 class="mt-4 mb-4">Here you can find every of my AI projects with GitHub, screaming links, and YouTube videos!</h3>
+    <p> </p>
+<div class="row  g-4">
   
-  <div class='col'>
+  
     
     {%for project in projects%}
     {{ SingleProjectComponent(project)}}
     {%endfor%}
     
-  </div>
+  
 </div>
 {%endmacro%}

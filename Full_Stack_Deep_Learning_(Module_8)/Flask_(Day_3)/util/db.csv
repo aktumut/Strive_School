@@ -1,2 +1,1 @@
-col,id,title,description,cover,githubLink,liveLink
-6c5a2e99-5652-4d40-acdc-efb306292914,dsad, asdasdasd,dasdaasd,asdasdasd,sdadasda
+c391b53a-adbc-4080-89c1-ad98008d1415,Data Analysis,  This project is one of the Build week series of Strive school master camp of Ai and Data science. The aim of this project is to scrap & analyze the data of the best 1000 books of the decade 2000's from the web.,https://mglibrary.org/sites/default/files/migrated/goodreads%20logo.png,https://github.com/aktumut/Data_Analysis_Goodreads,https://github.com/aktumut/Data_Analysis_Goodreads/blob/main/EDA_and_Visualization.ipynb,https://www.youtube.com/watch?v=KCZXDI_qRDY&t=1s
