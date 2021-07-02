@@ -22,35 +22,9 @@ SOCIAL_LINKS = [{
 
 ]
 
-MY_PROJECTS = [
-    {
-        "title":"Data Analysis",
-        "description":"This project is one of the Build week series of Strive school master camp of Ai and Data science. The aim of this project is to scrap & analyze the data of the best 1000 books of the decade 2000's from the web.",
-        "cover":"https://mglibrary.org/sites/default/files/migrated/goodreads%20logo.png",
-        "liveLink":"https://github.com/aktumut/Data_Analysis_Goodreads/blob/main/EDA_and_Visualization.ipynb",
-        "githubLink":"https://github.com/aktumut/Data_Analysis_Goodreads",
-        'youtubelink': "https://www.youtube.com/watch?v=4Nnb6dgaZYA"
-        
-    },
-     {
-        "title":"Machne Learning",
-        "description":"Project B description",
-        "cover":"http://placehold.it/300x300",
-        "liveLink":"https://github.com",
-        "githubLink":"https://github.com",
-        'youtubelink':"https://www.youtube.com/watch?v=4Nnb6dgaZYA"
-    },
-    {
-        "title":"Project C",
-        "description":"Project C description",
-        "cover":"http://placehold.it/300x300",
-        "liveLink":"https://github.com",
-        "githubLink":"https://github.com",
-        'youtubelink':"https://www.youtube.com/watch?v=4Nnb6dgaZYA"
-    }
-]
 
-MENU_ITEMS= [{"label":"About","link":"#about"},{"label":"Projects","link":"#projects"},{"label":"Dashboard","link":"/dashboard"},{"label":"Blog","link":"/Blog"}]
+
+MENU_ITEMS= [{"label":"About","link":"#about"},{"label":"Blog","link":"https://umutaktas.medium.com/"},{"label":"Projects","link":"#projects"},{"label":"CV","link":"/CV"},{"label":"Dashboard","link":"/dashboard"},]
 
 
 DASHBOARD_MENU= [

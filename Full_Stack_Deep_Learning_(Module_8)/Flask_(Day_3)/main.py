@@ -39,6 +39,18 @@ def projects():
     return render_template("/views/projects/index.html",APP_NAME=APP_NAME,DASHBOARD_MENU=DASHBOARD_MENU,all_projects=all_projects)
 
 
+@app.route("/CV")
+def CV():
+    return render_template("/views/CV/index.html",APP_NAME=APP_NAME,DASHBOARD_MENU=DASHBOARD_MENU)
+
+
+
+@app.route("/blog")
+def blog():
+    
+    return redirect("https://umutaktas.medium.com/")
+
+
 @app.route("/dashboard/projects/<string:id>",methods=["GET","POST"])
 def project_actions(id):
     if request.method=="POST":
